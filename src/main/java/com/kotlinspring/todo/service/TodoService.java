@@ -1,8 +1,8 @@
 package com.kotlinspring.todo.service;
 
+import com.kotlinspring.todo.api.model.TodoRequest;
 import com.kotlinspring.todo.domain.Todo;
 import com.kotlinspring.todo.domain.TodoRepository;
-import com.kotlinspring.todo.api.model.TodoRequest;
 import java.time.LocalDateTime;
 import java.util.List;
 import org.springframework.data.domain.Sort;
